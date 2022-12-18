@@ -45,5 +45,21 @@ namespace Geek_Brains_Lesson_2
                 Console.ReadLine();
             }
         }
+        public static void Day()
+        {
+            int day = int.Parse(Console.ReadLine());
+            if (day > 0 & day < 6)
+            {
+                Console.WriteLine("Будний!");
+            }
+            else if (day >= 6 & day <= 7)
+            {
+                Console.WriteLine("Выходной!");
+            }
+            else
+            {
+                Console.WriteLine("Такого дня не существует!");
+            }
+        }
     }
 }

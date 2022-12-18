@@ -9,3 +9,8 @@ Console.WriteLine(new string('_', 50));
 
 Console.WriteLine("Третья цифра");
 Lesson2.Number_3();
+
+Console.WriteLine(new string('_', 50));
+
+Console.WriteLine("Выходной или нет?");
+Lesson2.Day();
