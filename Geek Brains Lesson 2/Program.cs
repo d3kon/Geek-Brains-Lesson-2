@@ -2,15 +2,8 @@
 using Geek_Brains_Lesson_2;
 
 
-Console.WriteLine("Центральное число трехзначного числа");
-Lesson2.Center();
+Console.WriteLine("Введите ");
+int number = int.Parse(Console.ReadLine());
+Console.WriteLine(Ex19.Mirror(number));
 
 Console.WriteLine(new string('_', 50));
-
-Console.WriteLine("Третья цифра");
-Lesson2.Number_3();
-
-Console.WriteLine(new string('_', 50));
-
-Console.WriteLine("Выходной или нет?");
-Lesson2.Day();
