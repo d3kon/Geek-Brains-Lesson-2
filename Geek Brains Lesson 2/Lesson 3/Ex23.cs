@@ -10,10 +10,16 @@ public static class Ex23
 {
     public static void CubePow(int input)
     {
-        for (int i = 1; i <= input; i++)
+        for (int i = 1; i < input+1; i++)
         {
-            Console.Write($"{Math.Pow(i, 3)}__");
+            if ((i % 1 == 0) & (i % i == 0))
+            {
+                Console.Write(i);
+            }
+            else
+            {
+                Console.WriteLine("");
+            }  
         }
-        Console.WriteLine("");
     }
 }
