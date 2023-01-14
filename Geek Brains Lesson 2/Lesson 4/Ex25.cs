@@ -11,7 +11,7 @@ namespace Geek_Brains_Lesson_2
         public static int Degree(int a,int degree)
         {
             int input = 1;    
-            for (int i = 1; i < degree; i++)
+            for (int i = 0; i < degree; i++)
             {
                 input = input * a;
             }

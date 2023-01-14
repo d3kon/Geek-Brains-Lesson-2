@@ -9,3 +9,9 @@ int a = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите степень:");
 int degree = int.Parse(Console.ReadLine());
 Console.WriteLine(Ex25.Degree(a,degree));
+
+Console.WriteLine(new string('_', 50));
+
+Console.WriteLine("Введите число:");
+int b = int.Parse(Console.ReadLine());
+Console.WriteLine(Ex27.Summ_Num(b));
