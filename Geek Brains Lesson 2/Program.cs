@@ -10,8 +10,15 @@ Console.WriteLine($"\nКоличество четных элементов ма�
 
 
 
-Console.WriteLine(new string('_', 50));
+/*Console.WriteLine(new string('_', 50));
 
 Console.Write("Задайте длину массива: ");
 int n = int.Parse(Console.ReadLine());
-Console.WriteLine($"\nСумма элементов на нечетных позициях: {Ex36.Even_Position(n)}");
+Console.WriteLine($"\nСумма элементов на нечетных позициях: {Ex36.Even_Position(n)}");*/
+
+
+Console.WriteLine(new string('_', 50));
+
+Console.Write("Задайте длину массива: ");
+int g = int.Parse(Console.ReadLine());
+Console.WriteLine($"\nРазность максимального и минимального числа: {Ex38.Raznost_Max_Min(g)}");
