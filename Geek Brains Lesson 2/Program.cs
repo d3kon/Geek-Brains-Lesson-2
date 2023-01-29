@@ -9,7 +9,8 @@ Console.Write("Введите высоту массива 'm': ");
 int m = int.Parse(Console.ReadLine());
 Console.Write("Введите ширину массива 'n': ");
 int n = int.Parse(Console.ReadLine());
-int[,] array = Ex47.SDimArray(m, n);
-Console.WriteLine();
 
-Ex54.SortRows(ref m, ref n, array);
+int[,] array = Ex47.SDimArray(m, n);
+
+Ex56.SumOfRows(ref m, ref n, array);
+Console.ReadKey();
