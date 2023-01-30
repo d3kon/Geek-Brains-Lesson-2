@@ -3,4 +3,7 @@ using Geek_Brains_Lesson_2;
 using System;
 using System.Runtime.InteropServices;
 
-Ex62.SpiralAddedToArray();
+int a= int.Parse(Console.ReadLine());
+Console.Clear();
+Ex64.SequenceNumber(a);
+Console.ReadKey();
