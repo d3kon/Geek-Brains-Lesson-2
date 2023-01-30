@@ -3,4 +3,4 @@ using Geek_Brains_Lesson_2;
 using System;
 using System.Runtime.InteropServices;
 
-Ex60.TrippleArrayGenerator();
+Ex62.SpiralAddedToArray();
