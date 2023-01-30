@@ -4,6 +4,6 @@ using System;
 using System.Runtime.InteropServices;
 
 
-int m = int.Parse(Console.ReadLine());
-int n = int.Parse(Console.ReadLine());
-Console.WriteLine(Ex66.SumInRange(m,n));
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+Console.WriteLine(Ex68.AkkermanFunction(a,b));
